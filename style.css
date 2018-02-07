@@ -1,0 +1,273 @@
+h1{
+    color: #E34E45;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;   
+}
+
+h3{
+
+    font-size:17px;
+}
+
+form p{
+
+     font-size: 15px;   
+
+}
+
+
+.headers{
+margin-bottom: 0px;
+}
+
+.subHeader{
+margin-top: 0px;
+}
+
+body{
+
+font-family: 'Roboto Mono', sans-serif;
+
+}
+
+.tableContainer {
+    border-radius: 5%;
+    display: flex;
+    border: 1px black solid;
+    margin-bottom: 10px;
+    width: 300px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    border:none;
+    margin-top: 20px;
+
+}
+
+.theOne {
+    position: relative;
+}
+
+.available {
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #EEE;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.reserved {
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #ADAAAA;
+    border: 1px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:none;
+}
+
+.reserved p{
+
+      
+        margin-bottom: 0px;
+
+}
+
+
+body {
+    background-color: #E1D7D4;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 20px 0px;
+}
+
+form {
+	display: none;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    border-radius: 5%;
+    top: 50px;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 0px 0px 31px 1px rgba(0, 0, 0, 0.3);
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 300px;
+    height: 300px;
+    border:none;
+}
+
+.formInput {
+    margin: 10px 5px 5px 0px;
+    height: 20px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+button {
+    width: 290px;
+    background-color: #008000;
+    margin: 0px 10px 10px 0px;
+    height: 25px;
+    color: white;
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.available:hover {
+    background-color: #ADAAAA;
+}
+
+.cancel{
+box-shadow: none;
+width:25px;
+height:25px;
+border:none;
+}
+
+.cancelContainer{
+display: flex;
+justify-content: flex-end;
+
+}
+
+.formHeader{
+margin-top: 0px;
+font-size: 25px;
+}
+
+#name{
+	margin-top: 5px;
+}
+
+
+.hoverData{
+
+display: block;
+border: 1px solid black;
+font-size: 8px;
+font-weight: bold;
+width: 85px;
+margin-top: 5px;
+background-color: #ADAAAA;
+border-radius: 5%;
+padding:5px;
+color: black;
+}
+
+.reserved:hover .hoverData{
+display: block;
+
+cursor: not-allowed;
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+form {
+  
+    width: 420px;
+    height: 410px;
+  
+}
+
+.inputContainer {
+
+    margin: 20px 20px 20px 0px;
+}
+
+h1{
+   
+    font-size: 40px;
+    
+}
+
+.tableContainer {
+
+    margin-bottom: 20px;
+    width: 400px;
+    margin-top: 40px;
+
+}
+
+
+.available {
+    margin: 20px;
+    width: 90px;
+    height: 90px;
+}
+
+.reserved {
+    margin: 20px;
+    width: 90px;
+    height: 90px;
+}
+
+
+.formInput {
+    margin: 30px 10px 10px 0px;
+    height: 20px;
+
+}
+
+button {
+    width: 390px;
+
+    margin: 0px 20px 20px 0px;
+    height: 40px;
+
+}
+
+
+
+
+
+.cancel{
+
+width:25px;
+height:25px;
+
+}
+
+
+.formHeader{
+font-size: 25px;
+}
+
+#name{
+    margin-top: 15px;
+}
+
+
+.hoverData{
+
+display: none;
+font-size: 10px;
+width: 100px;
+margin-top: 5px;
+
+}
+

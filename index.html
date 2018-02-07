@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Rubik" rel="stylesheet">
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body>
+    <center>
+        <h1 class="headers">Table Finder</h1></center>
+    <center>
+        <h3 class="subHeader">Pick your table now</h2></center>
+    <div class="theOne">
+        <div class="tableContainer">
+            <div class="tableRows">
+                <div id="table" class="available">
+                    <p>1</p>
+                </div>
+                <div class="available">
+                    <p>4</p>
+                </div>
+                <div class="available">
+                    <p>7</p>
+                </div>
+            </div>
+            <div class="tableRows">
+                <div class="available">
+                    <p>2</p>
+                </div>
+                <div class="available">
+                    <p>5</p>
+                </div>
+                <div class="available">
+                    <p>8</p>
+                </div>
+            </div>
+            <div class="tableRows">
+                <div class="available">
+                    <p>3</p>
+                </div>
+                <div class="available">
+                    <p>6</p>
+                </div>
+                <div class="available">
+                    <p>9</p>
+                </div>
+            </div>
+        </div>
+        <form id="form">
+        	<div class ="cancelContainer">
+        	<button type="button" class="cancel" style="background: url(cancel.png)"></button>
+        </div>
+        	
+            <h1 class="formHeader">New Reservation</h1>
+            <p>Table Number:<span id="tableNumber"></span></p>
+            <div class="inputContainer">
+                <input class="formInput" id="name" placeholder=" Name">
+                <input class="formInput" id="phoneNumber" placeholder=" Phone Number">
+                <input class="formInput" type="number" id="peopleNumber" placeholder=" Number of People">
+            </div>
+            <button id="btn" class="save" type="save">Save</button>
+
+        </form>
+    </div>
+    <script src="jquery-3.3.1.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.js"></script> -->
+    <script type="text/javascript" src="javascript.js"></script>
+</body>
+
+</html>
